@@ -1,0 +1,70 @@
+# OS / editor
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Python build / packaging
+build/
+dist/
+*.spec
+
+# Host tool release artifacts
+tools/picoc_host/release/
+tools/picoc_host/dist/
+tools/picoc_host/build/
+
+# PicoC desktop build artifacts
+picoc/msvc/
+
+# Keil / MDK
+*.axf
+*.bin
+*.crf
+*.d
+*.dep
+*.hex
+*.htm
+*.iex
+*.lnp
+*.map
+*.o
+*.obj
+*.plg
+*.sbr
+*.tmp
+*.uvguix.*
+*.bak
+*.ilk
+*.pdb
+*.idb
+*.sdf
+*.tlog
+*.exe
+
+Listings/
+Objects/
+
+MDK-ARM/**/Listings/
+MDK-ARM/**/Objects/
+MDK-ARM/**/*.htm
+MDK-ARM/**/*.map
+MDK-ARM/**/*.dep
+MDK-ARM/**/*.axf
+MDK-ARM/**/*.hex
+MDK-ARM/**/*.bin
+
+# Optional local package cache
+tools/picoc_host/wheelhouse/
